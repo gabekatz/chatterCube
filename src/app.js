@@ -1,11 +1,13 @@
 angular.module('chatter-cube')
-  .controller('appCtrl', function(){
-    chat= []
+  .controller('appCtrl', function(fetchChat){
+    // console.log('test')
+    this.chat= []
     this.$onInit = function() {
-      serverTalk.chatGet()
+      // console.log('test')
+      fetchChat.fetch(this.getChat)
     }
-    this.getChat = function () {
-
+    this.getChat = function (data) {
+      this.chat = data;
     }
   })
   .component('app', {
@@ -13,5 +15,6 @@ angular.module('chatter-cube')
     <div> test
     </div>
     `,
+    controller: 'appCtrl',
 
   })
