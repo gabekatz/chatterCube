@@ -8,7 +8,7 @@ angular.module('chatter-cube')
   },
   controller: 'messageListCtrl',
   template:`
-  <div className="indiMessage"> testing
+  <div className="indiMessage">
     <message-entry ng-repeat="message in $ctrl.messages" data-message="message"></message-entry>
   </div>
   `
