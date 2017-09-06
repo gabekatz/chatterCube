@@ -21,6 +21,7 @@ angular.module('chatter-cube')
     controller: 'appCtrl',
     template: `
       <div>
+        <p id="title"> /c&#179;/ - Chatter Cube</p>
         <message-submit form-message="$ctrl.formMessage" get-chat="$ctrl.getChat" data-messages="$ctrl.chat"></message-submit>
         <message-list data-messages="$ctrl.chat"> </message-list>
       </div>

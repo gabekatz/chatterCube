@@ -1,9 +1,27 @@
-/* .nameField {
-  display: inline;
-  align-content: flex-start;
+/* .commentField {
+  text-align: center;
+  display: block;
+}
+.nameField {
+  text-align: center;
+  display: block;
 } */
 
+.messageField {
+  vertical-align: middle;
+  text-align: center;
+}
+
+#title {
+  color: #800000;
+  font-size: 28px;
+  text-align: center;
+  font-family: tahoma, sans-serif;
+  font-weight: bold;
+}
+
 #nameText {
+  vertical-align: inherit;
   background-color: #EA8;
   display: inline;
   color: #800000;
@@ -15,14 +33,17 @@
 }
 
 #nameInput {
-   text-align: start;
+  /* text-align: start; */
+  vertical-align: inherit;
   display: inline;
   border: 1px solid #AAA;
   padding-top:10px;
   padding-bottom: 10px;
 }
 
+
 #commentText {
+  vertical-align: inherit;
   background-color: #EA8;
   display: inline;
   color: #800000;
@@ -34,7 +55,8 @@
 }
 
 #commentInput {
-  text-align: start;
+  /* text-align: start; */
+  vertical-align: inherit;
   display: inline;
   border: 1px solid #AAA;
   padding-top:10px;
@@ -42,6 +64,10 @@
   white-space: pre-wrap;
   width: 300px;
   height: 60px;
+}
+
+.btn {
+  display: inline;
 }
 
 .indiMessage {
