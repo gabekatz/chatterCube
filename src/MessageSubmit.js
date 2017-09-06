@@ -3,6 +3,7 @@ angular.module('chatter-cube')
     this.send = function() {
       var message = this.formMessage($scope.messageText, $scope.nameInput);
       sendMessage.send(message, this.getChat)
+      $scope.messageText = "";
     }.bind(this)
   })
 
