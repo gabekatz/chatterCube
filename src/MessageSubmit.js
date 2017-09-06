@@ -16,6 +16,7 @@ angular.module('chatter-cube')
     },
     controller: 'messageSubmitCtrl',
     template: `
+    <div class="container"> </div>
     <div class=messageField>
       <div class="nameField">
         <p id="nameText">Name</p>
@@ -25,8 +26,8 @@ angular.module('chatter-cube')
         <p id="commentText">Comment</p>
         <input type="text" name='message' id='commentInput' placeholder='Type message here' 
         ng-model="messageText"/>
+        <button class="btn" ng-click="$ctrl.send()"> Submit </button>
         </div>
-      <button class="btn" ng-click="$ctrl.send()"> Submit </button>
     </div>
     `
   })

@@ -7,9 +7,19 @@
   display: block;
 } */
 
+.container {
+  width:35%;
+  height:20%;
+  display: inline-block;
+}
+
 .messageField {
-  vertical-align: middle;
-  text-align: center;
+  display: inline-block;
+  vertical-align: left;
+  /* flex-direction: column; */
+  /* justify-content: left; */
+  align-content: flex-start;
+  /* text-align: center; */
 }
 
 #title {
@@ -47,8 +57,8 @@
   background-color: #EA8;
   display: inline;
   color: #800000;
-  padding-top:10px;
-  padding-bottom: 10px;
+  padding-top:28px;
+  padding-bottom: 32px;
   border: 1px solid #AAA;
   padding-left: 5px;
   padding-right: 5px
@@ -67,7 +77,7 @@
 }
 
 .btn {
-  display: inline;
+  display: inline-block;
 }
 
 .indiMessage {
