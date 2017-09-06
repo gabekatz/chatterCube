@@ -1,16 +1,14 @@
 angular.module('chatter-cube')
-.controller('messageEntryCtrl',function(){}
-
-)
+.controller('messageEntryCtrl',function(){})
 .component('messageEntry',{
   bindings: {
     message: '<',
   },
   controller: 'messageEntryCtrl',
   template:`
-    <p className="username">{{$ctrl.message.username}}</p>
-    <p className="timeStamp"> {{$ctrl.message.createdAt}}</p>
-    <p className="messageEntry"> {{$ctrl.message.message}}</p>
+    <p class="username">{{$ctrl.message.username}}</p>
+    <p class="timeStamp"> {{$ctrl.message.createdAt}}</p>
+    <p class="messageEntry"> {{$ctrl.message.message}}</p>
     `
   }
 )

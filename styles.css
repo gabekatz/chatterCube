@@ -1,0 +1,74 @@
+/* .nameField {
+  display: inline;
+  align-content: flex-start;
+} */
+
+#nameText {
+  background-color: #EA8;
+  display: inline;
+  color: #800000;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border: 1px solid #AAA;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+#nameInput {
+   text-align: start;
+  display: inline;
+  border: 1px solid #AAA;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+#commentText {
+  background-color: #EA8;
+  display: inline;
+  color: #800000;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border: 1px solid #AAA;
+  padding-left: 5px;
+  padding-right: 5px
+}
+
+#commentInput {
+  text-align: start;
+  display: inline;
+  border: 1px solid #AAA;
+  padding-top:10px;
+  padding-bottom: 10px;
+  white-space: pre-wrap;
+  width: 300px;
+  height: 60px;
+}
+
+.indiMessage {
+  display: block;
+  left: -25%;
+  width: 800px;
+  /* align-content: flex-start; */
+  background-color: #f0e0d6;
+  border: 1px solid #D9BFB7;
+  padding: 10px;
+  margin: 10px;
+}
+
+.username {
+  display: flex;
+  color: #117743;
+  font-weight: bold;
+  display: inline;
+}
+
+.timeStamp {
+  display: inline;  
+}
+
+.messageEntry {
+  display: block;
+  color: #800000;
+  word-wrap: break-word;
+}
+

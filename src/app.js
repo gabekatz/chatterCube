@@ -9,10 +9,10 @@ angular.module('chatter-cube')
       this.chat = data;
     }.bind(this)
 
-    this.formMessage = function (messageText){
+    this.formMessage = function (messageText, usernameText){
       return {
         message: messageText, 
-        username: 'I\'m screaming on the inside',
+        username: usernameText,
       }
     }
 
